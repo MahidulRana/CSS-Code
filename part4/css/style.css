@@ -1,0 +1,32 @@
+h2{
+    font-size: 20px;
+   
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+    border-width: 5PX;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    text-transform:capitalize;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 1px;
+    
+}
+.rana{
+    width: 1300px;
+    height: 250px;
+background: url('../assets/rana.jpg') no-repeat top left/200px auto;
+    background-attachment: fixed;
+
+   
+}
+.fountain{
+     width: 1300px;
+    height: 250px;
+    background: url('../assets/fountain.jpg') no-repeat top left/200px auto;
+}

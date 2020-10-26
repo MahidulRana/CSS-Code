@@ -1,0 +1,9 @@
+.rana{
+    max-width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    overflow:scroll;
+    text-align: justify;
+    padding: 5px;
+    
+}

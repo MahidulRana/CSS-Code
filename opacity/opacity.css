@@ -1,0 +1,14 @@
+.rana{
+    width: 200px;
+    height: 200px;
+    background: url('../assets/bandorbon-1.jpg') no-repeat center/cover;
+    overflow: hidden;
+}
+.rana p{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    opacity: 0.5;
+    margin-top: 100px;
+}
