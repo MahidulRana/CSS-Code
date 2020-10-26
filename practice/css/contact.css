@@ -1,0 +1,14 @@
+a{
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 620px;    
+    
+}
+body{
+    
+   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/contract.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200vh;
+    background-size:cover;
+}

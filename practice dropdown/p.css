@@ -1,0 +1,38 @@
+ul{
+    background: red;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+   display: inline-block;
+}
+ul li{
+    float:left;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    color: white;
+}
+ul li a:hover{
+    background: black;
+    color: red;
+}
+.navigation a{
+    display: none;
+    min-width: 150px;
+}
+.navigation{
+    background: blue;
+    position: absolute;
+
+}
+.navigation a:hover{
+    background: black;
+    color: red;
+}
+.dropdown:hover .navigation a{
+    display: block;
+} 
+
