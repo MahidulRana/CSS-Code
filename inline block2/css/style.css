@@ -1,0 +1,33 @@
+.menu{
+   background: yellow;
+   
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    float: right;
+    display: inline-block;
+}
+ul li{
+     display: inline-block;
+    padding: 5px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: blue;
+    margin-right:10px;
+   
+    
+}
+ul li:hover{
+    background: red;
+    color: white;
+}
+ul li:hover a{
+    color: white;
+   
+}

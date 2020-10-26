@@ -1,0 +1,9 @@
+ul{
+    list-style-type: square;
+    list-style-position:outside;
+    background: yellow;
+}
+ul li{
+    color: red;
+
+}

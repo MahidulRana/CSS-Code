@@ -1,0 +1,27 @@
+span.a{
+    width: 100px;
+    height: 100px;
+   border:2px solid red;
+    padding: 5px;
+    background: black;
+    color: white;
+    display: inline;
+} 
+span.b{
+    width: 100px;
+    height: 100px;
+   border:2px solid red;
+    padding: 5px;
+    background: black;
+    color: white;
+    display: inline-block;
+} 
+span.c{
+    width: 100px;
+    height: 100px;
+   border:2px solid red;
+    padding: 5px;
+    background: black;
+    color: white;
+    display: block;
+}  
