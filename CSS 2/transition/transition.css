@@ -1,0 +1,14 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin:50px auto;
+    transition-duration: 5s;
+    
+}
+.box:hover{
+    transition-delay: 5s;
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}

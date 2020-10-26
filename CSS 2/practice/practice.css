@@ -1,0 +1,21 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid red;
+}
+ul li a{
+    text-decoration: none;
+    background: red;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+ul li a:enabled{
+    background: blue;
+}
