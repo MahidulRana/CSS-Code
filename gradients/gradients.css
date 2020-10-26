@@ -1,0 +1,15 @@
+.rana{
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to right bottom,red 50%,green 50%);  
+}
+.ra{
+     width: 250px;
+    height: 250px;
+    background:linear-gradient(rgba(46, 204, 113,0),rgba(46, 204, 113,1.0));
+}
+.ran{
+     width: 250px;
+    height: 250px;
+    background: radial-gradient(red 10% ,green 30%,yellow 60%);
+}
