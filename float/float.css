@@ -1,0 +1,21 @@
+img{
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+p{
+  clear: both;
+}
+.box{
+    width: 25%;
+    background: black;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+.box1{
+    background: red;
+}
+.box3{
+    background: blue;
+}
