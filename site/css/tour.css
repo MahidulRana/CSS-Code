@@ -1,0 +1,199 @@
+
+.rana{
+    float: right;
+    font-size: 20px;
+    display: inline-block;
+   
+}
+a{
+    
+    margin-top: 10px;
+    transition: 1.0s ease;
+    font-weight:bold;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: Century Gothic;
+    list-style-type: none;
+    background: white;
+    color: black;
+    border: 2px solid black;
+   
+   
+   
+}
+a:hover{
+    background: red;
+    color: white;
+}
+a:active{
+    background:#3498DB;
+    color: red
+}
+
+body{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/tourists.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 365vh;
+    background-size:cover;
+}
+
+p{
+    
+    color: white;
+    text-transform: capitalize;
+    text-align: justify;
+   word-spacing: 5px;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: 1000;
+    
+}
+h1{
+   display: inline-block;
+    background: red;
+    color:white;
+    margin-top: 80px;
+    font-size: 40px;
+    border: 2px solid black;
+    
+    
+}
+.rana2{
+    max-width: 1200px;
+    position: absolute;
+    margin: auto;
+}
+
+.rana3{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    background-color: white;
+    padding:3px 3px;
+    
+   
+}
+
+
+h2{
+    color: white;
+    position: absolute;
+    top: 70%;
+    font-size: 40px;
+    background: red;
+    border: 2px solid black;
+}
+.rana4{
+    position: absolute;
+    top: 85%;
+    margin: auto;
+    max-width: 1200px;
+}
+.rana5{
+    position: absolute;
+    top: 110%;
+    left: 30%;
+    background-color: white;
+    padding:3px 3px;
+   
+}
+h4{
+    color: white;
+    position: absolute;
+    top: 135%;
+    font-size: 40px;
+    background: red;
+    border: 2px solid black;
+}
+.rana6{
+    position: absolute;
+    top: 155%;
+   margin: auto;
+    max-width: 1200px;
+}
+.rana7{
+   position: absolute;
+    top: 170%;
+    left: 40%;
+    background-color: white;
+    padding:3px 3px;
+}
+h5{
+    color: white;
+    position: absolute;
+    top: 193%;
+    font-size: 40px;
+    background: red;
+    border: 2px solid black;
+}
+.rana8{
+    position: absolute;
+    top: 215%;
+    margin: auto;
+    max-width: 1200px;
+}
+.rana9{
+   position: absolute;
+    top: 235%;
+    left: 30%;
+    background-color: white;
+    padding:3px 3px;
+}
+h6{
+    color: white;
+    position: absolute;
+    top: 255%;
+    font-size: 40px;
+    background: red;
+    border: 2px solid black;
+}
+.rana10{
+    position: absolute;
+    top: 280%;
+    margin: auto;
+    max-width: 1200px;
+}
+.rana11{
+   position: absolute;
+    top: 300%;
+    left: 30%;
+   background-color: white;
+    padding: 3px 3px;
+    
+}
+.box{
+    width: 200px;
+    height: 25px;
+    background: red;
+    margin-top:2070px;
+     padding: 30px 0;
+    margin-left: 120px;
+    animation-name: rana;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;animation-iteration-count: infinite;
+    position: relative;
+   box-shadow: 8px 8px 8px 8px rgba(0,0,0,1),8px 8px 8px 8px rgba(0,0,0,1); 
+}
+.box p{
+   text-align: center;
+    color: black;
+   
+}
+@keyframes rana{
+     0%{
+        background-color: red;
+        left: 0;
+        top: 0;
+         
+    }
+    100%{
+        background-color: yellow;
+        left: 880px;
+        top: 0;
+    }
+    
+}

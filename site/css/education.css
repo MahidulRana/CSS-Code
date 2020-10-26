@@ -1,0 +1,48 @@
+.rana{
+    float: right;
+    font-size: 20px;
+    display: inline-block;
+}
+a{
+    background: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.9s ease;
+    font-weight:bold;  
+    padding: 5px 20px;
+    font-family: Century Gothic;
+    list-style-type: none;
+    border: 2px solid black;
+   
+}
+a:hover{
+    background: red;
+    color: white;
+}
+a:active{
+    background:#3498DB;
+    color: red
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/education.jpg);
+    background-size: cover;
+    background-position: center;
+        
+}
+table{
+    position: absolute;
+    top: 15%;
+    left:30%;
+    width: 50%;
+}
+table,th,td{
+    border: 5px solid red;
+    border-collapse: collapse;
+    font-weight: 1000;
+    font-size: 25px;
+}
+th,td{
+    color: #F4F6F7;
+    padding: 30px;
+    text-align: center;
+}

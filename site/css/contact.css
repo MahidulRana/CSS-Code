@@ -1,0 +1,79 @@
+.rana{
+    float: right;
+    font-size: 20px;
+    display: inline-block;
+    
+   
+}
+.rana2 ul{
+     position: absolute;
+      top: 35%;
+    left: 41%;
+    text-decoration:none;
+     text-decoration-color: white;
+}
+.rana2 ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+
+}
+.rana2 ul li:nth-child(2){
+    margin-right: 0px;
+}
+.rana2 ul li a{
+    background-image: url(../assets/sprites.png);
+    width: 50px;
+    height: 70px;
+    display: inline-block;
+    transition: 1s;
+    border: 20px solid red;
+}
+.rana2 ul li:hover:nth-child(1) a{
+    background-position:0 -70px;
+}
+.rana2 ul li:nth-child(2) a{
+    background-position:90px 0;
+}
+.rana2 ul li:hover:nth-child(2) a{
+    background-position:90px -70px;
+}
+a{
+    background: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.9s ease;
+    font-weight:bold;  
+    padding: 5px 20px;
+    margin-top: 20px;
+    font-family: Century Gothic;
+    list-style-type: none;
+    border: 2px solid black;
+   
+}
+a:hover{
+    background: red;
+    color: white;
+}
+a:active{
+    background:#3498DB;
+    color: red
+}
+body{
+    
+   background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/contract.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 95vh;
+    background-size:cover;
+}
+h1{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    color: black;
+    background: white;
+   border: 3px solid black;
+    padding: 5px;
+}
+

@@ -1,0 +1,43 @@
+.rana{
+    float: right;
+    font-size: 20px;
+    display: inline-block;
+}
+.rana2{
+     position: absolute;
+      top: 45%;
+    left: 42%;
+    font-size: 40px;
+}
+a{
+    background: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.9s ease;
+    font-weight:bold;  
+    padding: 5px 20px;
+    margin-top: 20px;
+    font-family: Century Gothic;
+    list-style-type: none;
+   border: 2px solid black;
+}
+a:hover{
+    background: red;
+    color: white;
+}
+a:active{
+    background:#3498DB;
+    color: red
+}
+body{
+    
+   background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/location.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 95vh;
+    background-size:cover;
+}
+h1{
+    color: white;
+    border: 2px solid white
+}

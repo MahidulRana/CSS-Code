@@ -1,0 +1,171 @@
+.rana2{
+    float: right;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: -90px;
+}
+a{
+    transition: 1.0s ease;
+    font-weight:bold;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: Century Gothic;
+    list-style-type: none;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    
+    
+   
+}
+a:hover{
+    background: red;
+    color: white;
+}
+a:active{
+    background:#3498DB;
+    color: red
+}
+
+body{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../assets/download.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 82vh;
+    background-size:cover;
+}
+
+p{
+    
+    color: white;
+    text-transform: capitalize;
+    text-align: justify;
+   word-spacing: 5px;
+    margin: 100px 20px;
+    font-size: 20px;
+    font-weight: 1000;
+    
+}
+.rana{
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/rana.jpg');
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    margin: 20px;
+    border: 3px solid white;
+}
+
+
+.box{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    animation-name: rana1;
+    position: relative;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    margin-left: 555px;
+    margin-top: -1px;
+}
+@keyframes rana1{
+    0%{
+        background-color: black;
+        left: 0;
+        top: 0;
+    }
+    100%{
+        background-color: black;
+        left: 163px;
+        top: 0;
+    }
+   
+}
+.box1{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    animation-name: rana2;
+     position: relative;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    margin-top: 256px;
+    margin-left: 718px;
+}
+@keyframes rana2{
+    0%{
+        background-color: black;
+        left:0;
+        top: 0;
+    }
+    100%{
+        background-color: black;
+        left:-162px;
+        top: 0;
+    }
+   
+}
+.box2{
+    width: 5px;
+    height: 100px;
+    background-color: red;
+    animation-name: rana3;
+    position: relative;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    margin-left: 554px; 
+    margin-top: -264px;
+}
+@keyframes rana3{
+    0%{
+        background-color: black;
+        left: 0;
+        top: 0;
+    }
+    100%{
+        background-color: black;
+        left: 0px;
+        top: 164px;
+    }
+   
+}
+
+.box3{
+    width: 5px;
+    height: 100px;
+    background-color: red;
+    animation-name: rana4;
+    position: relative;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    margin-left: 814px; 
+    margin-top: -100px;
+}
+@keyframes rana4{
+    0%{
+        background-color: black;
+        left: 0;
+        top: 161px;
+    }
+    100%{
+        background-color: black;
+        left: 0px;
+        top:0 ;
+    }
+   
+}
+
+
