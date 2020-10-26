@@ -1,0 +1,78 @@
+@media screen and (max-width: 980px){
+    .header{
+        height: 150px;
+    }
+    .logo-area{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-left: -170px
+    }
+    .login-area{
+        float: none;
+        width: 100%;
+    }
+    .login-area form{
+        float: none;
+    }
+            .right-area h2{
+            font-size: 13px;
+        }
+        .right-area h4{
+            margin-top: 5px;
+            font-size: 14px
+        }
+        .full-name input[type="text"]{
+            font-size: 8px;
+        }
+        .pass input[type="text"]{
+            font-size: 7px;
+        }
+        .pass input[type="password"]{
+            font-size: 15px;
+        }
+        .text-box p{
+            max-width: 200px;
+        }
+    
+
+    
+}
+@media screen and (max-width: 780px){
+    .login-area{
+        width: 100%;
+    }
+    .header{
+        height: auto;
+    }
+    .login-area .email,.login-area .password,.login-area .Login{
+    float: none;;
+    margin-right: 0;
+}
+    .login-area input[type="text"],.login-area input[type="password"]{
+      width: 100%;
+      box-sizing: border-box;  
+    
+}
+    .login-area input[typr="submit"]{
+        margin-top: 10px;
+    }
+    .left-area p{
+        font-size: 11px;
+        line-height: normal;
+    }
+    .birthday select{
+        font-size: 10px;
+    }
+    .gender label{
+        font-size: 9px;
+    }
+    .text-box p{
+        font-size: 10px;
+        text-align: justify;
+    }
+    .bussiness {
+        font-size: 12px;
+    }
+        
+}

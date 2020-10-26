@@ -1,0 +1,11 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: Rana;
+    animation-duration: 5s;
+}
+@keyframes Rana{
+    from{background: red,}
+    to{background: yellow;}
+}
