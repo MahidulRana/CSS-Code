@@ -1,0 +1,9 @@
+div > p{
+    background: yellow;
+}
+div + p{
+    background: red;
+}
+div ~ p{
+    background: red;
+}
